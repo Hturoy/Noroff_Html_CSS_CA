@@ -55,8 +55,10 @@ main {
 
 footer {
     background-color: rgba(0, 0, 0, 0.658);
+    height: 100px;
     display: flex;
     justify-content: center;
+    margin-top: 55px;
 }
 
 
@@ -361,7 +363,6 @@ p {
 
     footer {
         background-color: rgba(0, 0, 0, 0.658);
-        display: flex;
         justify-content: center;
     }
 
