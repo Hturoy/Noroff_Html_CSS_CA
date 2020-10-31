@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+    color: white;
+}
 html {
     height: 100%;
 }
@@ -12,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .container {
@@ -145,23 +150,41 @@ figure {
 }
 
 .contactcontainer {
-    background-color: blue;
+    background-color: none;
     width: 400px;
-    height: 600px;
+    height: 485px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .contactbox {
-    background-color: blueviolet;
+    background-color: none;
     width: 380px;
-    height: 280px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.contactbox2 {
+    background-color: none;
+    width: 380px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .payinfo {
     display: flex;
@@ -181,6 +204,37 @@ figure {
 input {
     width: 300px;
 }
+
+.textarea {
+    width: 77,6666%;
+    height: 100%;
+}
+
+.contact {
+    background-image: none;
+}
+
+
+button {
+    text-decoration: none;
+    color: white;
+    background-color:rgb(11, 58, 64);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.inputfield {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
 
 /*Tablet*/
 
