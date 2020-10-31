@@ -195,6 +195,14 @@ figure {
     width: 300px;
 }
 
+label {
+    color: black;
+}
+
+input {
+    color: black;
+}
+
 .paycontainer {
     display: flex;
     flex-direction: column;
